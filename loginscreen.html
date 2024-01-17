@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<body>THANKYOU FOR SIGNING PLEASE CLICK CONTINUE PROCED</body>
+<button><a href="home.html" id=CONTINUE>CONTINUE</a></button> 
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shaun 
+  </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    input {
+      margin: 10px;
+      padding: 8px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <form>
+   
+    <br>
+
+    
+  </form>
+
+  <div id="thankYouMessage" style="display: none;">
+    <p>Thank you for signing up! Please click continue to proceed.</p>
+    <button type="button" onclick="proceed()">Continue</button>
+  </div>
+
+  <script>
+    function showThankYou() {
+      document.getElementById('thankYouMessage').style.display = 'block';
+    }
+
+    function proceed() {
+      // Add any further actions or redirection logic here
+      alert('Proceeding to the next step!');
+    }
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        select {
+            padding: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+    <p></p>
+
+    <footer>
+        <label for="languageSelect">Select Language:</label>
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="tl">Tagalog</option>
+            <option value="ceb">Bisaya</option>
+       
